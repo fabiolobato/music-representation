@@ -1,0 +1,77 @@
+nn,nn_params,word_embeddings_params,accuracy,f1_macro,f1_weighted,Heavy Metal_precision,Heavy Metal_recall,Heavy Metal_f1_score,Heavy Metal_samples,Punk Rock_precision,Punk Rock_recall,Punk Rock_f1_score,Punk Rock_samples,Soft Rock_precision,Soft Rock_recall,Soft Rock_f1_score,Soft Rock_samples,total_samples
+cnn,Embedding_out_dim = 100| Conv1D_filters=50| Conv1D_kernel_size=2,../input/glove-6b/glove.6B.100d,0.44,0.32,0.41,0.5,0.6,0.55,1911,0.36,0.38,0.37,1409,0.17,0.04,0.06,587,3907
+gru_return_sequences_max_pooling,Embedding_out_dim = 100| GRU_units=10,glove.6B.100d,0.45,0.3,0.4,0.49,0.72,0.58,1911,0.36,0.25,0.3,1409,0.13,0.02,0.03,587,3907
+cnn,Embedding_out_dim = 300| Conv1D_filters=50| Conv1D_kernel_size=5,../input/glove-6b/glove.6B.300d,0.47,0.27,0.38,0.48,0.86,0.62,1911,0.37,0.13,0.2,1409,0.11,0.0,0.01,587,3907
+lstm_return_sequences_max_pooling,Embedding_out_dim = 300| LSTM_units=100,glove.6B.300d,0.44,0.29,0.38,0.48,0.75,0.58,1911,0.35,0.19,0.25,1409,0.13,0.03,0.05,587,3907
+gru_return_sequences_max_pooling,Embedding_out_dim = 300| GRU_units=70,glove.6B.300d,0.37,0.33,0.38,0.48,0.42,0.45,1911,0.35,0.39,0.37,1409,0.15,0.17,0.16,587,3907
+cnn,Embedding_out_dim = 300| Conv1D_filters=50| Conv1D_kernel_size=4,../input/glove-6b/glove.6B.300d,0.41,0.3,0.37,0.48,0.69,0.57,1911,0.34,0.16,0.22,1409,0.13,0.11,0.12,587,3907
+cnn,Embedding_out_dim = 300| Conv1D_filters=50| Conv1D_kernel_size=3,../input/glove-6b/glove.6B.300d,0.37,0.31,0.37,0.48,0.38,0.42,1911,0.34,0.49,0.4,1409,0.14,0.08,0.1,587,3907
+gru_return_sequences_average_pooling,Embedding_out_dim = 300| GRU_units=50,glove.6B.300d,0.49,0.27,0.37,0.49,0.92,0.64,1911,0.43,0.1,0.16,1409,0.2,0.0,0.0,587,3907
+cnn,Embedding_out_dim = 100| Conv1D_filters=100| Conv1D_kernel_size=4,../input/glove-6b/glove.6B.100d,0.39,0.31,0.37,0.47,0.58,0.52,1911,0.34,0.23,0.28,1409,0.13,0.13,0.13,587,3907
+gru_return_sequences_max_pooling,Embedding_out_dim = 100| GRU_units=20,glove.6B.100d,0.48,0.26,0.36,0.49,0.91,0.63,1911,0.39,0.09,0.15,1409,0.07,0.0,0.01,587,3907
+lstm_return_sequences_max_pooling,Embedding_out_dim = 100| LSTM_units=50,glove.6B.100d,0.44,0.28,0.36,0.49,0.81,0.61,1911,0.32,0.07,0.11,1409,0.16,0.12,0.14,587,3907
+gru_return_sequences_average_pooling,Embedding_out_dim = 100| GRU_units=100,glove.6B.100d,0.35,0.33,0.36,0.47,0.34,0.39,1911,0.35,0.42,0.38,1409,0.17,0.26,0.21,587,3907
+gru_return_sequences_max_pooling,Embedding_out_dim = 300| GRU_units=10,glove.6B.300d,0.47,0.25,0.34,0.49,0.93,0.64,1911,0.36,0.02,0.04,1409,0.12,0.04,0.06,587,3907
+cnn,Embedding_out_dim = 300| Conv1D_filters=50| Conv1D_kernel_size=2,../input/glove-6b/glove.6B.300d,0.41,0.27,0.33,0.49,0.77,0.6,1911,0.33,0.01,0.03,1409,0.14,0.21,0.17,587,3907
+gru_return_sequences_average_pooling,Embedding_out_dim = 100| GRU_units=70,glove.6B.100d,0.45,0.25,0.33,0.48,0.88,0.62,1911,0.46,0.03,0.05,1409,0.09,0.05,0.06,587,3907
+gru,Embedding_out_dim = 100| GRU_units=70,glove.6B.100d,0.47,0.23,0.33,0.48,0.96,0.64,1911,0.25,0.01,0.03,1409,0.06,0.01,0.01,587,3907
+lstm,Embedding_out_dim = 300| LSTM_units=70,glove.6B.300d,0.48,0.23,0.33,0.49,0.97,0.65,1911,0.27,0.01,0.02,1409,0.09,0.01,0.01,587,3907
+lstm,Embedding_out_dim = 100| LSTM_units=70,glove.6B.100d,0.48,0.23,0.33,0.48,0.96,0.64,1911,0.38,0.02,0.03,1409,0.06,0.01,0.01,587,3907
+lstm,Embedding_out_dim = 100| LSTM_units=100,glove.6B.100d,0.48,0.23,0.33,0.49,0.97,0.65,1911,0.3,0.01,0.02,1409,0.11,0.01,0.02,587,3907
+lstm_return_sequences_average_pooling,Embedding_out_dim = 300| LSTM_units=100,glove.6B.300d,0.46,0.24,0.33,0.49,0.92,0.64,1911,0.32,0.01,0.01,1409,0.12,0.06,0.08,587,3907
+lstm_return_sequences_max_pooling,Embedding_out_dim = 300| LSTM_units=10,glove.6B.300d,0.46,0.23,0.33,0.48,0.92,0.63,1911,0.43,0.02,0.03,1409,0.08,0.03,0.04,587,3907
+gru_return_sequences_average_pooling,Embedding_out_dim = 300| GRU_units=70,glove.6B.300d,0.38,0.28,0.33,0.49,0.24,0.32,1911,0.35,0.72,0.47,1409,0.18,0.03,0.05,587,3907
+lstm,Embedding_out_dim = 300| LSTM_units=20,glove.6B.300d,0.47,0.23,0.32,0.48,0.95,0.64,1911,0.34,0.01,0.02,1409,0.07,0.01,0.02,587,3907
+gru,Embedding_out_dim = 300| GRU_units=50,glove.6B.300d,0.48,0.22,0.32,0.49,0.98,0.65,1911,0.0,0.0,0.0,1409,0.12,0.01,0.02,587,3907
+gru,Embedding_out_dim = 300| GRU_units=70,glove.6B.300d,0.48,0.22,0.32,0.48,0.97,0.65,1911,0.29,0.0,0.01,1409,0.05,0.01,0.01,587,3907
+lstm_return_sequences_average_pooling,Embedding_out_dim = 300| LSTM_units=20,glove.6B.300d,0.49,0.22,0.32,0.49,1.0,0.66,1911,0.0,0.0,0.0,1409,0.0,0.0,0.0,587,3907
+lstm_return_sequences_average_pooling,Embedding_out_dim = 300| LSTM_units=50,glove.6B.300d,0.39,0.27,0.32,0.5,0.69,0.58,1911,0.4,0.01,0.03,1409,0.15,0.31,0.2,587,3907
+gru_return_sequences_max_pooling,Embedding_out_dim = 300| GRU_units=50,glove.6B.300d,0.31,0.3,0.31,0.52,0.18,0.27,1911,0.36,0.45,0.4,1409,0.17,0.42,0.24,587,3907
+cnn,Embedding_out_dim = 100| Conv1D_filters=100| Conv1D_kernel_size=5,../input/glove-6b/glove.6B.100d,0.37,0.27,0.31,0.51,0.18,0.26,1911,0.36,0.77,0.49,1409,0.1,0.03,0.05,587,3907
+cnn,Embedding_out_dim = 100| Conv1D_filters=100| Conv1D_kernel_size=3,../input/glove-6b/glove.6B.100d,0.37,0.26,0.31,0.49,0.66,0.56,1911,0.26,0.01,0.02,1409,0.14,0.31,0.19,587,3907
+lstm_return_sequences_max_pooling,Embedding_out_dim = 100| LSTM_units=10,glove.6B.100d,0.39,0.25,0.3,0.63,0.13,0.21,1911,0.37,0.91,0.52,1409,0.13,0.01,0.02,587,3907
+lstm_return_sequences_average_pooling,Embedding_out_dim = 100| LSTM_units=50,glove.6B.100d,0.38,0.24,0.29,0.54,0.13,0.21,1911,0.36,0.89,0.51,1409,0.29,0.0,0.01,587,3907
+gru_return_sequences_average_pooling,Embedding_out_dim = 300| GRU_units=100,glove.6B.300d,0.3,0.24,0.28,0.47,0.44,0.46,1911,0.33,0.03,0.06,1409,0.14,0.46,0.21,587,3907
+cnn,Embedding_out_dim = 300| Conv1D_filters=100| Conv1D_kernel_size=2,../input/glove-6b/glove.6B.300d,0.27,0.25,0.26,0.47,0.25,0.33,1911,0.39,0.1,0.16,1409,0.16,0.7,0.27,587,3907
+gru_return_sequences_max_pooling,Embedding_out_dim = 100| GRU_units=100,glove.6B.100d,0.28,0.24,0.26,0.45,0.38,0.41,1911,0.31,0.03,0.05,1409,0.16,0.6,0.25,587,3907
+cnn,Embedding_out_dim = 100| Conv1D_filters=100| Conv1D_kernel_size=2,../input/glove-6b/glove.6B.100d,0.26,0.26,0.25,0.46,0.14,0.21,1911,0.38,0.25,0.3,1409,0.16,0.66,0.26,587,3907
+gru_return_sequences_max_pooling,Embedding_out_dim = 100| GRU_units=50,glove.6B.100d,0.25,0.25,0.25,0.46,0.16,0.24,1911,0.37,0.22,0.28,1409,0.15,0.59,0.24,587,3907
+lstm_return_sequences_average_pooling,Embedding_out_dim = 300| LSTM_units=70,glove.6B.300d,0.31,0.26,0.25,0.53,0.06,0.11,1911,0.37,0.67,0.48,1409,0.14,0.27,0.18,587,3907
+cnn,Embedding_out_dim = 100| Conv1D_filters=50| Conv1D_kernel_size=3,../input/glove-6b/glove.6B.100d,0.34,0.25,0.25,0.48,0.06,0.1,1911,0.36,0.81,0.5,1409,0.14,0.13,0.14,587,3907
+gru_return_sequences_max_pooling,Embedding_out_dim = 300| GRU_units=100,glove.6B.300d,0.27,0.25,0.25,0.48,0.08,0.14,1911,0.36,0.44,0.4,1409,0.15,0.48,0.23,587,3907
+cnn,Embedding_out_dim = 300| Conv1D_filters=100| Conv1D_kernel_size=3,../input/glove-6b/glove.6B.300d,0.34,0.23,0.24,0.48,0.05,0.09,1911,0.36,0.85,0.5,1409,0.12,0.07,0.09,587,3907
+lstm_return_sequences_max_pooling,Embedding_out_dim = 100| LSTM_units=100,glove.6B.100d,0.36,0.21,0.23,0.53,0.04,0.07,1911,0.36,0.93,0.52,1409,0.1,0.02,0.03,587,3907
+lstm_return_sequences_max_pooling,Embedding_out_dim = 100| LSTM_units=20,glove.6B.100d,0.37,0.21,0.23,0.64,0.04,0.07,1911,0.36,0.96,0.53,1409,0.11,0.01,0.02,587,3907
+lstm_return_sequences_max_pooling,Embedding_out_dim = 100| LSTM_units=70,glove.6B.100d,0.36,0.2,0.22,0.49,0.04,0.07,1911,0.36,0.94,0.52,1409,0.09,0.01,0.02,587,3907
+lstm_return_sequences_max_pooling,Embedding_out_dim = 300| LSTM_units=70,glove.6B.300d,0.3,0.23,0.22,0.49,0.03,0.06,1911,0.36,0.7,0.48,1409,0.13,0.24,0.17,587,3907
+gru_return_sequences_average_pooling,Embedding_out_dim = 300| GRU_units=20,glove.6B.300d,0.35,0.21,0.22,0.46,0.03,0.05,1911,0.36,0.91,0.52,1409,0.12,0.05,0.07,587,3907
+gru_return_sequences_max_pooling,Embedding_out_dim = 300| GRU_units=20,glove.6B.300d,0.36,0.2,0.22,0.54,0.03,0.06,1911,0.36,0.94,0.52,1409,0.05,0.01,0.01,587,3907
+gru_return_sequences_average_pooling,Embedding_out_dim = 100| GRU_units=50,glove.6B.100d,0.26,0.23,0.22,0.37,0.05,0.08,1911,0.34,0.48,0.4,1409,0.14,0.41,0.21,587,3907
+lstm,Embedding_out_dim = 300| LSTM_units=50,glove.6B.300d,0.36,0.19,0.21,0.65,0.02,0.04,1911,0.36,0.98,0.53,1409,0.05,0.0,0.01,587,3907
+gru_return_sequences_average_pooling,Embedding_out_dim = 100| GRU_units=10,glove.6B.100d,0.36,0.19,0.21,0.58,0.02,0.03,1911,0.36,0.99,0.53,1409,0.0,0.0,0.0,587,3907
+gru_return_sequences_average_pooling,Embedding_out_dim = 300| GRU_units=10,glove.6B.300d,0.32,0.23,0.21,0.41,0.01,0.02,1911,0.36,0.81,0.5,1409,0.15,0.19,0.17,587,3907
+lstm_return_sequences_max_pooling,Embedding_out_dim = 300| LSTM_units=20,glove.6B.300d,0.35,0.21,0.21,0.56,0.02,0.04,1911,0.36,0.93,0.52,1409,0.13,0.04,0.06,587,3907
+gru,Embedding_out_dim = 100| GRU_units=10,glove.6B.100d,0.37,0.19,0.21,0.67,0.02,0.04,1911,0.36,0.99,0.53,1409,0.0,0.0,0.0,587,3907
+lstm_return_sequences_average_pooling,Embedding_out_dim = 100| LSTM_units=10,glove.6B.100d,0.36,0.19,0.2,0.46,0.02,0.03,1911,0.36,0.98,0.53,1409,0.0,0.0,0.0,587,3907
+gru_return_sequences_average_pooling,Embedding_out_dim = 100| GRU_units=20,glove.6B.100d,0.23,0.19,0.2,0.42,0.28,0.34,1911,0.38,0.0,0.0,1409,0.13,0.59,0.21,587,3907
+gru,Embedding_out_dim = 100| GRU_units=100,glove.6B.100d,0.36,0.19,0.2,0.53,0.01,0.02,1911,0.36,0.98,0.53,1409,0.09,0.01,0.02,587,3907
+gru,Embedding_out_dim = 300| GRU_units=20,glove.6B.300d,0.36,0.18,0.2,0.79,0.01,0.01,1911,0.36,0.99,0.53,1409,0.03,0.0,0.0,587,3907
+gru,Embedding_out_dim = 100| GRU_units=20,glove.6B.100d,0.36,0.18,0.2,0.75,0.0,0.01,1911,0.36,0.99,0.53,1409,0.04,0.0,0.01,587,3907
+cnn,Embedding_out_dim = 300| Conv1D_filters=100| Conv1D_kernel_size=4,../input/glove-6b/glove.6B.300d,0.35,0.19,0.2,0.5,0.0,0.01,1911,0.36,0.95,0.52,1409,0.11,0.03,0.05,587,3907
+lstm_return_sequences_average_pooling,Embedding_out_dim = 300| LSTM_units=10,glove.6B.300d,0.24,0.21,0.18,0.57,0.0,0.01,1911,0.37,0.45,0.4,1409,0.13,0.49,0.21,587,3907
+lstm_return_sequences_max_pooling,Embedding_out_dim = 300| LSTM_units=50,glove.6B.300d,0.2,0.17,0.15,0.59,0.11,0.18,1911,0.41,0.03,0.06,1409,0.16,0.93,0.27,587,3907
+lstm_return_sequences_average_pooling,Embedding_out_dim = 100| LSTM_units=100,glove.6B.100d,0.16,0.12,0.08,0.4,0.01,0.02,1911,0.44,0.04,0.07,1409,0.15,0.96,0.26,587,3907
+lstm,Embedding_out_dim = 100| LSTM_units=20,glove.6B.100d,0.17,0.12,0.08,0.59,0.03,0.06,1911,0.36,0.01,0.03,1409,0.15,0.98,0.27,587,3907
+gru_return_sequences_max_pooling,Embedding_out_dim = 100| GRU_units=70,glove.6B.100d,0.17,0.12,0.08,0.51,0.04,0.07,1911,0.28,0.01,0.02,1409,0.15,0.96,0.26,587,3907
+cnn,Embedding_out_dim = 100| Conv1D_filters=50| Conv1D_kernel_size=4,../input/glove-6b/glove.6B.100d,0.17,0.11,0.08,0.49,0.04,0.08,1911,1.0,0.0,0.0,1409,0.15,0.97,0.26,587,3907
+gru,Embedding_out_dim = 300| GRU_units=100,glove.6B.300d,0.16,0.11,0.07,0.71,0.02,0.05,1911,0.37,0.01,0.02,1409,0.15,0.98,0.26,587,3907
+gru,Embedding_out_dim = 100| GRU_units=50,glove.6B.100d,0.16,0.11,0.07,0.65,0.03,0.06,1911,0.33,0.0,0.0,1409,0.15,0.99,0.26,587,3907
+cnn,Embedding_out_dim = 300| Conv1D_filters=100| Conv1D_kernel_size=5,../input/glove-6b/glove.6B.300d,0.16,0.1,0.06,0.56,0.0,0.01,1911,0.37,0.02,0.04,1409,0.15,0.98,0.26,587,3907
+lstm,Embedding_out_dim = 100| LSTM_units=50,glove.6B.100d,0.16,0.1,0.06,0.68,0.01,0.01,1911,0.32,0.02,0.03,1409,0.15,0.98,0.26,587,3907
+lstm,Embedding_out_dim = 300| LSTM_units=100,glove.6B.300d,0.16,0.1,0.05,0.78,0.01,0.02,1911,0.17,0.0,0.01,1409,0.15,0.99,0.26,587,3907
+gru,Embedding_out_dim = 300| GRU_units=10,glove.6B.300d,0.15,0.1,0.05,1.0,0.0,0.0,1911,0.26,0.01,0.02,1409,0.15,0.99,0.26,587,3907
+lstm_return_sequences_average_pooling,Embedding_out_dim = 100| LSTM_units=20,glove.6B.100d,0.15,0.09,0.04,0.0,0.0,0.0,1911,0.0,0.0,0.0,1409,0.15,1.0,0.26,587,3907
+lstm_return_sequences_average_pooling,Embedding_out_dim = 100| LSTM_units=70,glove.6B.100d,0.15,0.09,0.04,0.0,0.0,0.0,1911,0.0,0.0,0.0,1409,0.15,1.0,0.26,587,3907
+cnn,Embedding_out_dim = 100| Conv1D_filters=50| Conv1D_kernel_size=5,../input/glove-6b/glove.6B.100d,0.15,0.09,0.04,0.64,0.0,0.01,1911,0.5,0.0,0.0,1409,0.15,1.0,0.26,587,3907
+lstm,Embedding_out_dim = 100| LSTM_units=10,glove.6B.100d,0.15,0.09,0.04,0.67,0.0,0.0,1911,0.36,0.0,0.01,1409,0.15,1.0,0.26,587,3907
+lstm,Embedding_out_dim = 300| LSTM_units=10,glove.6B.300d,0.15,0.09,0.04,0.0,0.0,0.0,1911,0.0,0.0,0.0,1409,0.15,1.0,0.26,587,3907
