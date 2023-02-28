@@ -2,7 +2,8 @@
 
 ***
 #### **Dados sobre o artigo**
-> Artigo submetido para a revista **IEEE Latin America Transactions**, no ano de 2023. Este trabalho investiga formas de representação de textos (e.g., word embeddings) que melhor discriminam textos musicais (letras). Os modelos são avaliados na classificação de subgêneros musicais. 
+> Artigo submetido para a revista **IEEE Latin America Transactions**, no ano de 2023. Este trabalho investiga formas de representação de textos (e.g., word embeddings) que melhor discriminam textos musicais (letras). Os modelos foram avaliados na classificação de subgêneros musicais, problema cuja a superfície de separatividade entre as classes (de subgêneros) não é trival.
+
 
 #### **Autores (artigo original)**
 <table>
@@ -24,4 +25,3 @@ The advancement of techniques and computational tools for data mining has been b
 
 ---
 
-------------------------------------------
