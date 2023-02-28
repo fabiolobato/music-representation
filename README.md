@@ -1,4 +1,5 @@
-## 
+# Text representations for lyric-based identification of musical subgenres
+
 ***
 #### **Dados sobre o artigo**
 > Artigo submetido para a revista **IEEE Latin America Transactions**, no ano de 2023. Este trabalho investiga formas de representação de textos (e.g., word embeddings) que melhor discriminam textos musicais (letras). Os modelos são avaliados na classificação de subgêneros musicais. 
@@ -6,7 +7,7 @@
 #### **Autores (artigo original)**
 <table>
   <tr>
-    <td align="center"><a href="http://lattes.cnpq.br/5415578583738595"><img style="width: 100px; height:auto;" src="https://drive.google.com/file/d/1_QEVJ2tIYhJorV9nnoKeXjJpZLTuB6BA/view?usp=share_link" width="100px;" alt=""/><br /><sub><b>Fabrício A. do Carmo</b></sub></a><br /><sub><b>UEMA</b></sub></a></td>
+    <td align="center"><a href="http://lattes.cnpq.br/5415578583738595"><img style="width: 100px; height:auto;" src="https://drive.google.com/file/d/1_QEVJ2tIYhJorV9nnoKeXjJpZLTuB6BA/view" width="100px;" alt=""/><br /><sub><b>Fabrício A. do Carmo</b></sub></a><br /><sub><b>UEMA</b></sub></a></td>
     <td align="center"><a href="http://lattes.cnpq.br/4856853219520680"><img style="width: 130px; height:auto;" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K8376390Z9" width="100px;" alt=""/><br /><sub><b>Jorge L. F. da Silva Junior</b></sub></a><br /><sub><b>UFOPA</b></sub></a></td>
     <td align="center"><a href="http://lattes.cnpq.br/0426846510205467"><img style="width: 100px; height:auto;" src="https://bit.ly/3Ej189W" width="100px;" alt=""/><br /><sub><b>Rafael G. Rossi</b></sub></a><br /><sub><b>iFood</b></sub></a></td>
     <td align="center"><a href="http://lattes.cnpq.br/8320014491229434"><img style="width: 108px; height:auto;" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4450672H1" width="100px;" alt=""/><br /><sub><b>Fábio M. F. Lobato</b></sub></a><br /><sub><b>UFOPA | UEMA</b></sub></a></td>
