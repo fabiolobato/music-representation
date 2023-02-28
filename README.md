@@ -2,7 +2,7 @@
 
 ***
 #### **Dados sobre o artigo**
-> Artigo submetido para a revista **IEEE Latin America Transactions**, no ano de 2023. Este trabalho investiga formas de representação de textos (e.g., word embeddings) que melhor discriminam textos musicais (letras). Os modelos foram avaliados na classificação de subgêneros musicais, problema cuja a superfície de separatividade entre as classes (de subgêneros) não é trival.
+> Artigo submetido para a revista <a href="https://latamt.ieeer9.org/index.php/transactions/index">**IEEE Latin America Transactions**</a>, no ano de 2023. Este trabalho investiga formas de representação de textos (e.g., word embeddings) que melhor discriminam textos musicais (letras). Os modelos foram avaliados na classificação de subgêneros musicais, problema cuja a superfície de separatividade entre as classes (de subgêneros) não é trival.
 
 
 #### **Autores (artigo original)**
