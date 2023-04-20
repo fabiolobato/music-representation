@@ -1,6 +1,9 @@
 # Text representations for lyric-based identification of musical subgenres
 
 ***
+<img style="width: auto; height:auto;" src="https://raw.githubusercontent.com/fabiolobato/music-representation/master/authors/aut03.jpg" alt=""/>
+***
+
 #### **Dados sobre o artigo**
 > Artigo submetido para a revista <a href="https://latamt.ieeer9.org/index.php/transactions/index">**IEEE Latin America Transactions**</a>, no ano de 2023. Este trabalho investiga formas de representação de textos (e.g., word embeddings) que melhor discriminam textos musicais (letras). Os modelos foram avaliados na classificação de subgêneros musicais, problema cuja a superfície de separatividade entre as classes (de subgêneros) não é trival.
 
